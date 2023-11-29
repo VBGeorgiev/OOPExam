@@ -1,4 +1,6 @@
-1, Vasil Georgiev, 2023-11-11, null, programmer, IT, 1234.56
-2, Andon, 2023-11-11, null, saller, Marketing, 1600.45
-55, Joseph Josephson, 1980-05-20, null, IT, Junior Developer, 2000.15
-45, Ivan Tenev, 1998-08-27, null, Marketing, Marketing officer, 1200.56
+1, Vasil Georgiev, 2023-11-11, null, IT, programmer, 1234.56
+2, Andon, 2023-11-11, 2023-11-13, Marketing, saller, 1600.45
+3, Andon Georgiev, 2023-11-13, null, worker, Support, 1456.23
+55, Joseph Josephson, 1980-05-20, 2023-11-13, Junior Developer, IT, 2000.15
+44, Dan, 2023-11-13, null, Support, cleaner, 1100.23
+45, Ivan Tenev, 1998-08-27, null, Marketing officer, Marketing, 1200.56

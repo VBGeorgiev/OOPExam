@@ -89,4 +89,9 @@ public class Employee {
     public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
+
+    public void view() {
+        System.out.println(this.id + ", " + this.name + ", " + this.startDate + ", " +
+                this.endDate + ", " + this.role + ", " + this.department + ", " + this.salary);
+    }
 }

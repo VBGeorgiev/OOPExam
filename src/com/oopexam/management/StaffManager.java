@@ -14,21 +14,23 @@ public class StaffManager extends Manager{
     @Override
     public void execute(String command) {
         if(command.equals("List employees")) {
-            this.viewEmployee();
+            this.staffService.viewAllActive();
         } else if(command.equals("Add Employee")) {
             this.staffService.add();
         } else if(command.equals("Save & Exit")) {
             this.staffService.saveEmployeeList();
         } else if(command.matches("Search Id [0-9]*")) {
             this.staffService.searchEmployeeById(command);
+        } else if(command.matches("Search Name [a-zA-z][a-zA-z\\s]*")) {
+            this.staffService.searchEmployeeByName(command);
+        } else if(command.matches("Fire [0-9]*")) {
+            this.staffService.fire(command);
+        } else if(command.equals("List all employees")) {
+            this.staffService.viewAll();
+        } else if(command.matches("Edit [0-9]*")) {
+            this.staffService.edit(command);
         }
 
     }
 
-    public void viewEmployee() {
-        this.staffService.viewAll();
-    }
-
-    public void viewActiveEmployee() {
-    }
 }

@@ -43,7 +43,8 @@ public class StaffManagementApp {
         System.out.println("========================================");
         System.out.println("Add employee (enter: Add Employee): ");
         System.out.println("Edit employee data (enter: Edit and employeeId): ");
-        System.out.println("List employees (enter: List employees): ");
+        System.out.println("List all active employees (enter: List employees): ");
+        System.out.println("List all employees (enter: List all employees): ");
         System.out.println("Search employees by department (enter: Search Department departmentName): ");
         System.out.println("Search employee by id (enter: Search Id and employeeId): ");
         System.out.println("Search employee by name (enter: Search Name and employeeName): ");

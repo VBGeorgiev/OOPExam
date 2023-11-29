@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class ValidateCommands {
     public static boolean validateCommnands(String command) {
-        if(command.equals("Add Employee") || command.equals("List employees") || command.equals("Save & Exit")) {
+        if(command.equals("Add Employee") || command.equals("List employees")
+                || command.equals("Save & Exit") || command.equals("List all employees")) {
             return true;
         } else if(command.matches("Edit [0-9]*")) {
             return true;
